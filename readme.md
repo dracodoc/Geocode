@@ -7,6 +7,7 @@ This is my setup to batch geocode NFIRS data addresses into valid addresses and 
 [Discussions On Scripts And Work Flow](http://dracodoc.github.io/2015/11/19/Script-workflow/)
 
 To use this work flow:
+
 1. Setup server. Assuming the project folder located in `/home/ubuntu/geocode`.
 2. Make address input file, upload to `address_input` folder. Don't use spaces in file name, it will cause error in shell script.
 3. Run `python gaddress.py`, then `sh ./batch.sh`. Output file will be put in `address_output` folder.
