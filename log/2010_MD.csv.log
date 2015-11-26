@@ -1,0 +1,489 @@
+Timing is on.
+Expanded display is used automatically.
+DROP TABLE
+Time: 50.634 ms
+CREATE TABLE
+Time: 1.506 ms
+COPY 39237
+Time: 161.707 ms
+ALTER TABLE
+Time: 245.313 ms
+CREATE FUNCTION
+Time: 12.400 ms
+CREATE FUNCTION
+Time: 0.810 ms
+DROP FUNCTION
+Time: 0.209 ms
+CREATE FUNCTION
+Time: 1.015 ms
+psql:geocode_batch.sql:179: NOTICE:  > 2015-11-25 06:22:50+00 : Start on table of 39237
+psql:geocode_batch.sql:179: NOTICE:  > time passed | address processed <<<< address left
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.9  |	100	<<<<	39137
+psql:geocode_batch.sql:179: NOTICE:  <address error> in samples started from: (717641,"+5 Keepsake PL , Waldorf, MD 20601",20601,123,,,,,,,,,)
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  -- !!! invalid regular expression: quantifier operand invalid 2201B !!!--
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:13.9  |	200	<<<<	39037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:13.5  |	300	<<<<	38937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:14.4  |	400	<<<<	38837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:15.6  |	500	<<<<	38737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:12.5  |	600	<<<<	38637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:15.2  |	700	<<<<	38537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:13.7  |	800	<<<<	38437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.7  |	900	<<<<	38337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:13.2  |	1000	<<<<	38237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23.6  |	1100	<<<<	38137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23  |	1200	<<<<	38037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.8  |	1300	<<<<	37937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.3  |	1400	<<<<	37837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:41.2  |	1500	<<<<	37737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.2  |	1600	<<<<	37637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.7  |	1700	<<<<	37537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.8  |	1800	<<<<	37437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.3  |	1900	<<<<	37337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.7  |	2000	<<<<	37237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.3  |	2100	<<<<	37137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.6  |	2200	<<<<	37037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.5  |	2300	<<<<	36937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:47.6  |	2400	<<<<	36837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:43.9  |	2500	<<<<	36737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:41.8  |	2600	<<<<	36637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:38.9  |	2700	<<<<	36537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:43.6  |	2800	<<<<	36437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29  |	2900	<<<<	36337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.1  |	3000	<<<<	36237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.9  |	3100	<<<<	36137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17  |	3200	<<<<	36037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21  |	3300	<<<<	35937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21  |	3400	<<<<	35837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34  |	3500	<<<<	35737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.4  |	3600	<<<<	35637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.8  |	3700	<<<<	35537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.8  |	3800	<<<<	35437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.9  |	3900	<<<<	35337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.7  |	4000	<<<<	35237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.9  |	4100	<<<<	35137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.9  |	4200	<<<<	35037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.3  |	4300	<<<<	34937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.3  |	4400	<<<<	34837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.8  |	4500	<<<<	34737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22.4  |	4600	<<<<	34637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.5  |	4700	<<<<	34537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.8  |	4800	<<<<	34437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.1  |	4900	<<<<	34337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:15  |	5000	<<<<	34237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22  |	5100	<<<<	34137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.3  |	5200	<<<<	34037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.1  |	5300	<<<<	33937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.1  |	5400	<<<<	33837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.2  |	5500	<<<<	33737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.7  |	5600	<<<<	33637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.7  |	5700	<<<<	33537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.1  |	5800	<<<<	33437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.7  |	5900	<<<<	33337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.7  |	6000	<<<<	33237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.1  |	6100	<<<<	33137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.6  |	6200	<<<<	33037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.7  |	6300	<<<<	32937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:14  |	6400	<<<<	32837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.3  |	6500	<<<<	32737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34.3  |	6600	<<<<	32637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.4  |	6700	<<<<	32537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.6  |	6800	<<<<	32437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:14.6  |	6900	<<<<	32337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.1  |	7000	<<<<	32237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:15.7  |	7100	<<<<	32137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.3  |	7200	<<<<	32037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.2  |	7300	<<<<	31937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.3  |	7400	<<<<	31837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36.4  |	7500	<<<<	31737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.1  |	7600	<<<<	31637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.4  |	7700	<<<<	31537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.1  |	7800	<<<<	31437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21  |	7900	<<<<	31337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.5  |	8000	<<<<	31237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.5  |	8100	<<<<	31137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:55.3  |	8200	<<<<	31037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29  |	8300	<<<<	30937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.1  |	8400	<<<<	30837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.8  |	8500	<<<<	30737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.4  |	8600	<<<<	30637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.2  |	8700	<<<<	30537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.2  |	8800	<<<<	30437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.6  |	8900	<<<<	30337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.8  |	9000	<<<<	30237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.4  |	9100	<<<<	30137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.8  |	9200	<<<<	30037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:14.4  |	9300	<<<<	29937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.2  |	9400	<<<<	29837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18  |	9500	<<<<	29737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.9  |	9600	<<<<	29637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.4  |	9700	<<<<	29537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23.9  |	9800	<<<<	29437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.5  |	9900	<<<<	29337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.1  |	10000	<<<<	29237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16  |	10100	<<<<	29137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.3  |	10200	<<<<	29037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.5  |	10300	<<<<	28937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.6  |	10400	<<<<	28837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:15.8  |	10500	<<<<	28737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.3  |	10600	<<<<	28637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.6  |	10700	<<<<	28537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.4  |	10800	<<<<	28437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.6  |	10900	<<<<	28337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:51.4  |	11000	<<<<	28237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24  |	11100	<<<<	28137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26  |	11200	<<<<	28037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.1  |	11300	<<<<	27937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.6  |	11400	<<<<	27837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.4  |	11500	<<<<	27737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23.2  |	11600	<<<<	27637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.6  |	11700	<<<<	27537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.6  |	11800	<<<<	27437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22.1  |	11900	<<<<	27337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.7  |	12000	<<<<	27237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.3  |	12100	<<<<	27137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.6  |	12200	<<<<	27037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.5  |	12300	<<<<	26937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.8  |	12400	<<<<	26837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:15.9  |	12500	<<<<	26737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16  |	12600	<<<<	26637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.6  |	12700	<<<<	26537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.6  |	12800	<<<<	26437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:16.9  |	12900	<<<<	26337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.4  |	13000	<<<<	26237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.1  |	13100	<<<<	26137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17  |	13200	<<<<	26037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20.7  |	13300	<<<<	25937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.2  |	13400	<<<<	25837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.7  |	13500	<<<<	25737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.8  |	13600	<<<<	25637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.6  |	13700	<<<<	25537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.2  |	13800	<<<<	25437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22.3  |	13900	<<<<	25337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23  |	14000	<<<<	25237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.8  |	14100	<<<<	25137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.2  |	14200	<<<<	25037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.8  |	14300	<<<<	24937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30  |	14400	<<<<	24837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.1  |	14500	<<<<	24737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.3  |	14600	<<<<	24637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.7  |	14700	<<<<	24537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.5  |	14800	<<<<	24437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.3  |	14900	<<<<	24337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.9  |	15000	<<<<	24237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.8  |	15100	<<<<	24137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:17.5  |	15200	<<<<	24037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18  |	15300	<<<<	23937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:18.5  |	15400	<<<<	23837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.5  |	15500	<<<<	23737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.2  |	15600	<<<<	23637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.8  |	15700	<<<<	23537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.1  |	15800	<<<<	23437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.4  |	15900	<<<<	23337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22.5  |	16000	<<<<	23237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.6  |	16100	<<<<	23137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:20  |	16200	<<<<	23037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.1  |	16300	<<<<	22937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.2  |	16400	<<<<	22837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.1  |	16500	<<<<	22737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22.5  |	16600	<<<<	22637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.9  |	16700	<<<<	22537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.6  |	16800	<<<<	22437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.5  |	16900	<<<<	22337
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:03.4  |	17000	<<<<	22237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.9  |	17100	<<<<	22137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.2  |	17200	<<<<	22037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.7  |	17300	<<<<	21937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33  |	17400	<<<<	21837
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:10.4  |	17500	<<<<	21737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23.2  |	17600	<<<<	21637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:21.6  |	17700	<<<<	21537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23  |	17800	<<<<	21437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.9  |	17900	<<<<	21337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.9  |	18000	<<<<	21237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25  |	18100	<<<<	21137
+psql:geocode_batch.sql:179: NOTICE:  <address error> in samples started from: (723888,"16238 hutchins mill RD , Phoenix (Jacksonvill, MD 21131",21131,18173,,,,,,,,,)
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  -- !!! invalid regular expression: parentheses () not balanced 2201B !!!--
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.4  |	18200	<<<<	21037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.2  |	18300	<<<<	20937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.1  |	18400	<<<<	20837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.8  |	18500	<<<<	20737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:19.5  |	18600	<<<<	20637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23  |	18700	<<<<	20537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28  |	18800	<<<<	20437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37.2  |	18900	<<<<	20337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:32.2  |	19000	<<<<	20237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:32.8  |	19100	<<<<	20137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.9  |	19200	<<<<	20037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34.7  |	19300	<<<<	19937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.6  |	19400	<<<<	19837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.8  |	19500	<<<<	19737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.8  |	19600	<<<<	19637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.3  |	19700	<<<<	19537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.1  |	19800	<<<<	19437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.1  |	19900	<<<<	19337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.7  |	20000	<<<<	19237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.8  |	20100	<<<<	19137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36.2  |	20200	<<<<	19037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29  |	20300	<<<<	18937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.8  |	20400	<<<<	18837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.4  |	20500	<<<<	18737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.3  |	20600	<<<<	18637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.1  |	20700	<<<<	18537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.5  |	20800	<<<<	18437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.4  |	20900	<<<<	18337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.6  |	21000	<<<<	18237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24  |	21100	<<<<	18137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.5  |	21200	<<<<	18037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.7  |	21300	<<<<	17937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34.9  |	21400	<<<<	17837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.5  |	21500	<<<<	17737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37.6  |	21600	<<<<	17637
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:07.9  |	21700	<<<<	17537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36  |	21800	<<<<	17437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.8  |	21900	<<<<	17337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.9  |	22000	<<<<	17237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.2  |	22100	<<<<	17137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.7  |	22200	<<<<	17037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.2  |	22300	<<<<	16937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28  |	22400	<<<<	16837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.2  |	22500	<<<<	16737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.2  |	22600	<<<<	16637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:22.6  |	22700	<<<<	16537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.7  |	22800	<<<<	16437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.3  |	22900	<<<<	16337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.3  |	23000	<<<<	16237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.6  |	23100	<<<<	16137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.1  |	23200	<<<<	16037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36  |	23300	<<<<	15937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45.9  |	23400	<<<<	15837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.7  |	23500	<<<<	15737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.1  |	23600	<<<<	15637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.6  |	23700	<<<<	15537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:32.2  |	23800	<<<<	15437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.1  |	23900	<<<<	15337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:39.2  |	24000	<<<<	15237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.9  |	24100	<<<<	15137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.4  |	24200	<<<<	15037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.4  |	24300	<<<<	14937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23.8  |	24400	<<<<	14837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.3  |	24500	<<<<	14737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.6  |	24600	<<<<	14637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.8  |	24700	<<<<	14537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.5  |	24800	<<<<	14437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.5  |	24900	<<<<	14337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.5  |	25000	<<<<	14237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.4  |	25100	<<<<	14137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.3  |	25200	<<<<	14037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.2  |	25300	<<<<	13937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:23.5  |	25400	<<<<	13837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.5  |	25500	<<<<	13737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.4  |	25600	<<<<	13637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27  |	25700	<<<<	13537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.7  |	25800	<<<<	13437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.8  |	25900	<<<<	13337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:26.9  |	26000	<<<<	13237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.6  |	26100	<<<<	13137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.4  |	26200	<<<<	13037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.2  |	26300	<<<<	12937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.5  |	26400	<<<<	12837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.1  |	26500	<<<<	12737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.4  |	26600	<<<<	12637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.9  |	26700	<<<<	12537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.2  |	26800	<<<<	12437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.1  |	26900	<<<<	12337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.1  |	27000	<<<<	12237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:25.9  |	27100	<<<<	12137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.5  |	27200	<<<<	12037
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:25.7  |	27300	<<<<	11937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34.2  |	27400	<<<<	11837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:58  |	27500	<<<<	11737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37.4  |	27600	<<<<	11637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:58.5  |	27700	<<<<	11537
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:09.2  |	27800	<<<<	11437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:53.2  |	27900	<<<<	11337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.8  |	28000	<<<<	11237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.1  |	28100	<<<<	11137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.7  |	28200	<<<<	11037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.8  |	28300	<<<<	10937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.6  |	28400	<<<<	10837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.3  |	28500	<<<<	10737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:28.1  |	28600	<<<<	10637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:24.9  |	28700	<<<<	10537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.6  |	28800	<<<<	10437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:27.5  |	28900	<<<<	10337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.6  |	29000	<<<<	10237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.1  |	29100	<<<<	10137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:51.5  |	29200	<<<<	10037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.3  |	29300	<<<<	9937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.9  |	29400	<<<<	9837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:39  |	29500	<<<<	9737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.5  |	29600	<<<<	9637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:50.7  |	29700	<<<<	9537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.4  |	29800	<<<<	9437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:41.3  |	29900	<<<<	9337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.3  |	30000	<<<<	9237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:53.1  |	30100	<<<<	9137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:55.4  |	30200	<<<<	9037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:51  |	30300	<<<<	8937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.5  |	30400	<<<<	8837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:43.1  |	30500	<<<<	8737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.3  |	30600	<<<<	8637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37.2  |	30700	<<<<	8537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36.7  |	30800	<<<<	8437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.3  |	30900	<<<<	8337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36.8  |	31000	<<<<	8237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:38.6  |	31100	<<<<	8137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.6  |	31200	<<<<	8037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.3  |	31300	<<<<	7937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:41.1  |	31400	<<<<	7837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37.8  |	31500	<<<<	7737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.6  |	31600	<<<<	7637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42  |	31700	<<<<	7537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:51  |	31800	<<<<	7437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:38.8  |	31900	<<<<	7337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36.1  |	32000	<<<<	7237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.8  |	32100	<<<<	7137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:46.7  |	32200	<<<<	7037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.3  |	32300	<<<<	6937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.8  |	32400	<<<<	6837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45  |	32500	<<<<	6737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:50  |	32600	<<<<	6637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:51.6  |	32700	<<<<	6537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34.8  |	32800	<<<<	6437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:29.7  |	32900	<<<<	6337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.4  |	33000	<<<<	6237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:31.3  |	33100	<<<<	6137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:35.9  |	33200	<<<<	6037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:34.8  |	33300	<<<<	5937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:39.7  |	33400	<<<<	5837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37.3  |	33500	<<<<	5737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:55.9  |	33600	<<<<	5637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:39.5  |	33700	<<<<	5537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:47  |	33800	<<<<	5437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:46.2  |	33900	<<<<	5337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:50  |	34000	<<<<	5237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.7  |	34100	<<<<	5137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:30.6  |	34200	<<<<	5037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:32.2  |	34300	<<<<	4937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.9  |	34400	<<<<	4837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.8  |	34500	<<<<	4737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.7  |	34600	<<<<	4637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:43  |	34700	<<<<	4537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44  |	34800	<<<<	4437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.6  |	34900	<<<<	4337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.5  |	35000	<<<<	4237
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:05.4  |	35100	<<<<	4137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.5  |	35200	<<<<	4037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:50  |	35300	<<<<	3937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:52.5  |	35400	<<<<	3837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:51.4  |	35500	<<<<	3737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:53.6  |	35600	<<<<	3637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:48.8  |	35700	<<<<	3537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:59.5  |	35800	<<<<	3437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:37  |	35900	<<<<	3337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:36.7  |	36000	<<<<	3237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:52.3  |	36100	<<<<	3137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.6  |	36200	<<<<	3037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.2  |	36300	<<<<	2937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44  |	36400	<<<<	2837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45  |	36500	<<<<	2737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:42.9  |	36600	<<<<	2637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.7  |	36700	<<<<	2537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45.7  |	36800	<<<<	2437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.3  |	36900	<<<<	2337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:47.4  |	37000	<<<<	2237
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:20.7  |	37100	<<<<	2137
+psql:geocode_batch.sql:179: NOTICE:  <address error> in samples started from: (739058,"2000-210 POINTS REACH (S)THE POINTE (, BERLIN, MD 21811",21811,37107,,,,,,,,,)
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  -- !!! invalid regular expression: parentheses () not balanced 2201B !!!--
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  <address error> in samples started from: (739355,"2000-210 POINTS REACH (S)THE POINTE (, BERLIN, MD 21811",21811,37162,,,,,,,,,)
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  -- !!! invalid regular expression: parentheses () not balanced 2201B !!!--
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:40.4  |	37200	<<<<	2037
+psql:geocode_batch.sql:179: NOTICE:  <address error> in samples started from: (739400,"2000-210 POINTS REACH (S)THE POINTE (, BERLIN, MD 21811",21811,37203,,,,,,,,,)
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  -- !!! invalid regular expression: parentheses () not balanced 2201B !!!--
+CONTEXT:  SQL statement "SELECT geocode_sample(sample_size)"
+PL/pgSQL function geocode_table() line 24 at PERFORM
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45.4  |	37300	<<<<	1937
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45.7  |	37400	<<<<	1837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:56.5  |	37500	<<<<	1737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:33.4  |	37600	<<<<	1637
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:51.9  |	37700	<<<<	1537
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:02.6  |	37800	<<<<	1437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:45.7  |	37900	<<<<	1337
+psql:geocode_batch.sql:179: NOTICE:  > 00:02:20.4  |	38000	<<<<	1237
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:04  |	38100	<<<<	1137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:49.9  |	38200	<<<<	1037
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.8  |	38300	<<<<	937
+psql:geocode_batch.sql:179: NOTICE:  > 00:01:21.1  |	38400	<<<<	837
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:52.2  |	38500	<<<<	737
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:48.5  |	38600	<<<<	637
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:55  |	38700	<<<<	537
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:55.9  |	38800	<<<<	437
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:47.3  |	38900	<<<<	337
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:43.4  |	39000	<<<<	237
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:44.2  |	39100	<<<<	137
+psql:geocode_batch.sql:179: NOTICE:  > 00:00:46.5  |	39200	<<<<	37
+psql:geocode_batch.sql:179: NOTICE:  ==== start mapping census block ====
+psql:geocode_batch.sql:179: NOTICE:  # time passed | address to block <<<< address left
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:02.4  |	1000	<<<<	38237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:04  |	2000	<<<<	37237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:04.3  |	3000	<<<<	36237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:05.6  |	4000	<<<<	35237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:05.7  |	5000	<<<<	34237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:06.5  |	6000	<<<<	33237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:07.2  |	7000	<<<<	32237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:08.8  |	8000	<<<<	31237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:09.4  |	9000	<<<<	30237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:10.8  |	10000	<<<<	29237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:11  |	11000	<<<<	28237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:12  |	12000	<<<<	27237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:12.9  |	13000	<<<<	26237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:13.7  |	14000	<<<<	25237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:14.4  |	15000	<<<<	24237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:16  |	16000	<<<<	23237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:16.2  |	17000	<<<<	22237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:17.6  |	18000	<<<<	21237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:17.8  |	19000	<<<<	20237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:18.8  |	20000	<<<<	19237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:19.7  |	21000	<<<<	18237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:20.5  |	22000	<<<<	17237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:21.2  |	23000	<<<<	16237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:22.8  |	24000	<<<<	15237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:23.2  |	25000	<<<<	14237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:24.5  |	26000	<<<<	13237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:25.8  |	27000	<<<<	12237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:25.8  |	28000	<<<<	11237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:26.9  |	29000	<<<<	10237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:27.8  |	30000	<<<<	9237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:28.7  |	31000	<<<<	8237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:29.3  |	32000	<<<<	7237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:30.9  |	33000	<<<<	6237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:31.3  |	34000	<<<<	5237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:32.5  |	35000	<<<<	4237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:32.6  |	36000	<<<<	3237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:33.8  |	37000	<<<<	2237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:34.6  |	38000	<<<<	1237
+psql:geocode_batch.sql:179: NOTICE:  # 00:00:35.5  |	39000	<<<<	237
+ table_size | remaining_rows | total_time | time_per_row 
+------------+----------------+------------+--------------
+      39237 |              0 | 03:44:02   | 00:00:00.342
+(1 row)
+
+Time: 13442624.045 ms 
